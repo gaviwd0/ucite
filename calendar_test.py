@@ -1,6 +1,8 @@
 import streamlit as st
 from streamlit_calendar import calendar
 
+
+#seteo de opciones del calendario
 calendar_options = {
     "editable": True,
     "selectable": True,
@@ -12,6 +14,8 @@ calendar_options = {
     "initialView": "dayGridMonth"
 }
 
+
+# seteo de eventos 
 calendar_events = [
     {"title": "Cita 1", "start": "2024-08-20T10:00:00", "end": "2024-08-20T11:00:00"},
     {"title": "Cita 2", "start": "2024-08-21T12:00:00", "end": "2024-08-21T13:00:00"}
