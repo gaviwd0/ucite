@@ -1,2 +1,4 @@
 env/
 db_conn.py
+.env
+anotaciones.txt
